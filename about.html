@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .about-section {
+            max-width: 90vw;
+            height: 80vh;
+            margin: 4vh auto;
+            padding: 2rem;
+            border: 10px solid #ec1212;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        p {
+            font-size: 2.2rem;
+            color: #fff;
+            margin-bottom: 1.5rem;
+            text-align:center;
+            word-spacing: 0.2rem;
+            letter-spacing: 0.01rem;
+        }
+
+        @media (max-width: 480px) {
+            .about-section {
+                height: 70vh;
+                max-width: 90vw;
+                padding: 1rem;
+             
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+
+        @media (min-width: 481px) and (max-width: 768px) {
+            .about-section {
+                height: 80vh;
+                max-width: 80vw;
+                padding: 2rem;
+                margin-top: 2vh;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .about-section {
+                height: 90vh;
+                max-width: 90vw;
+                padding: 2.5rem;
+                margin-top: 3vh;
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="about-section">
+        <h1>About Us</h1>
+        <p>The website is not an official website of Awadhesh Pratap Singh University. It aims to provide educational material for education purpose that benefits the students. Its a non-profitable, site that is helping students excel academically by providing easy access to previous year's question papers.</p>
+    </section>
+</body>
+</html>

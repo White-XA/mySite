@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+       
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+      
+        body {
+            background-color: black; 
+            font-family: Arial, sans-serif;
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            height: 100vh; 
+        }
+
+       
+        .contact-section {
+            max-width: 90vw; 
+            height:60vh ;
+            margin: 4vh auto; 
+            padding: 4rem; 
+          
+            border: 10px solid #ec1212; 
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+        h1 {
+            font-size: 4rem; 
+            color: #fff; 
+            margin-bottom: 3rem; 
+            text-align: center; 
+        }
+
+      
+        .social-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center; 
+        }
+
+        .social-links li {
+            display: inline-block; 
+            margin-right: 4rem; 
+        }
+
+        .social-links a {
+            color: #fff; 
+            text-decoration: none;
+            font-size: 2rem;
+        }
+
+        .social-links a:hover {
+            color: #ccc;
+            opacity: 0.5;
+        }
+
+        
+        .fa {
+            font-size: 4rem; 
+            margin-right: 1rem;
+            color: #fff; 
+        }
+
+        @media (max-width: 480px) {
+  
+            .contact-section {
+                height: 50vh; 
+                max-width: 90vw;
+                padding: 2rem; 
+                margin-top: 1vh;
+            }
+
+            .centre {
+                display: flex;
+                flex-direction: column;
+               
+            }
+            
+            h1 {
+                font-size: 3rem; 
+            }
+            .social-links li{
+                margin-left: 0;
+                margin: 0;
+                padding: 0;
+                display:initial;
+                
+            }
+            .social-links a {
+               padding-bottom: 1rem;
+               display: flex;
+                font-size: 1.5rem;
+            }
+            .social-links li a i {
+                padding-right: 0.5rem;
+            }
+
+            .fa {
+
+                font-size: 3rem; 
+            }
+        }
+        @media (min-width: 481px) and (max-width: 1024px) {
+    .contact-section {
+        height: 70vh;
+        max-width: 80vw;
+        padding: 3rem;
+        margin-top: 2vh;
+    }
+
+    .centre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .social-links li {
+        margin-left: 2rem;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .social-links a {
+        padding-bottom: 1rem;
+        display: flex;
+        font-size: 2rem;
+    }
+
+    .social-links li a i {
+        padding-right: 1rem;
+    }
+    .social-links li a {
+        padding-right: 1rem;
+    }
+    .fa {
+        font-size: 5rem;
+    }
+}
+
+            
+        
+    </style>
+</head>
+<body>
+    <section class="contact-section">
+        <div class="centre">
+            <h1> Contact Us </h1>
+        
+            <ul class="social-links">
+                <li>
+                    <a href="mailto:4675white@gmail.com" target="_blank">
+                      <i class="fas fa-envelope" aria-hidden="true"></i>
+                      4675white@gmail.com
+                    </a>
+                  </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/anil-patel-37573632a" target="_blank">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    Anil Patel
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/White-XA" target="_blank">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                    White-XA
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/anil_patel_z/" target="_blank">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                    Anil Patel
+                  </a>
+                </li>
+               
+              </ul>
+        </div>
+       
+    </section>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="logoImg.jpeg" alt="">
+        <h1>Awadhesh Pratap Singh University </h1>
+        <button class="dropDown"><i class="fa-solid fa-bars "></i></button>
+    
+    </div>
+    <div class="mid" id="mid2">
+        <h2>Select Your Subjects  </h2>
+        <div class="innerOptions">
+            <ul>
+                <li><button class="semOptions" id="sem1Sub1">Programming Methodology</button></li>
+                <li><button class="semOptions" id="sem1Sub2">Internet Technology</button></li>
+                <li><button class="semOptions" id="sem1Sub3">Calculus</button></li>
+                <li><button class="semOptions" id="sem1Sub4">English</button></li>
+        
+            </ul>
+        </div>
+    </div>
+    
+
+    <div class="dropDownMenu">
+        <div class="dropDownContent">
+            <a href="404pagenotfound.html"> <i class="fas fa-user"></i>Profile</a>
+            <a href="404pagenotfound.html"> <i class="fas fa-cog"></i>Settings</a>
+            <a href="https://www.linkedin.com/in/anil-patel-37573632a"> <i class="fab fa-linkedin"></i>Linkedin</a>
+            <a href="docs.html"> <i class="fas fa-envelope"></i>Contact Us</a>
+            <a href="privacyPolicy.html"> <i class="fas fa-lock"></i>Privacy Policy</a>
+            <a href="404pagenotfound.html"> <i class="fas fa-question-circle"></i>Help and Feedback</a>
+        </div>
+    </div>
+
+    <div class="allOptions options1 sem1Option1">
+        <ul>
+            <li> Programming Methodology 2023 <a href="1stSemProgrammingMethodology.pdf"download>Download</a></li>
+            <!-- <li> Programming Methodology 2022 <a href="">Download</a></li>
+            <li> Programming Methodology 2021 <a href="">Download</a></li>
+            <li> Programming Methodology 2020 <a href="">Download</a></li> -->
+        </ul>
+    </div>
+    <div class="allOptions options2 sem1Option2">
+        <ul>
+            <li>  Internet Technology 2023 <a href="1stSemInternetTechnology.pdf"download>Download</a></li>
+            <!-- <li>  Internet Technology 2022 <a href="">Download</a></li>
+            <li>  Internet Technology 2021 <a href="">Download</a></li>
+            <li>  Internet Technology 2020 <a href="">Download</a></li> -->
+        </ul>
+    </div>
+    <div class="allOptions options3 sem1Option3">
+        <ul>
+            <li>  Calculus  2023 <a href="1stSemCalculus.pdf"download>Download</a></li>
+            <!-- <li>  Calculus  2022 <a href="">Download</a></li>
+            <li>  Calculus  2021 <a href="">Download</a></li>
+            <li>  Calculus  2020 <a href="">Download</a></li> -->
+        </ul>
+    </div>
+    <div class="allOptions options4 sem1Option4">
+        <ul>
+            <li> English 2023 <a href="1stSemEnglish.pdf"download>Download</a></li>
+            <!-- <li>2022  English  <a href="">Download</a></li>
+            <li>2021  English  <a href="">Download</a></li>
+            <li>2020  English  <a href="">Download</a></li> -->
+        </ul>
+    </div>
+
+    
+    <div class="footer" >
+    
+        <div class="container">
+            <div class="sicons">
+                <a href="https://www.linkedin.com/in/anil-patel-37573632a"> <i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/anil_patel_z/"> <i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/White-XA"> <i class="fa-brands fa-github"></i></a>
+                <a href=""> <i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footernav">
+                <ul>
+                    <li><a href="about.html">About </a></li>
+                    <li><a href="404pagenotfound.html">Our teams</a></li>
+                    <li><a href="docs.html">Contact us </a></li>
+                    <li><a href="404pagenotfound.html">Help</a></li>
+                </ul>
+            </div>
+    
+    
+    
+        </div>
+    
+</body>
+<script src="main2.js"></script>
+<script>
+   const footer = document.querySelector(".footer")
+
+
+  function toggleDiv(id) {
+  var e = document.getElementById(id);
+  e.style.display = (e.style.display === 'none') ? 'block' : 'none';
+}
+
+    //to toggle download options and hide sub options 
+    let sem1Sub1 = document.querySelector("#sem1Sub1");
+    let sem1Option1 = document.querySelector(".sem1Option1");
+
+
+    sem1Sub1.addEventListener('click',()=>{
+        sem1Option1.classList.toggle("show2");
+        toggleDiv("mid2")
+        footer.style.marginTop = '450px';
+    });
+    
+
+    //to toggle download options and hide sub options 
+    let sem1Sub2 = document.querySelector("#sem1Sub2");
+    let sem1Option2 = document.querySelector(".sem1Option2");
+
+
+    sem1Sub2.addEventListener('click',()=>{
+        sem1Option2.classList.toggle("show2");
+        toggleDiv("mid2")
+        footer.style.marginTop = '450px';
+    });
+
+
+    //to toggle download options and hide sub options 
+    let sem1Sub3 = document.querySelector("#sem1Sub3");
+    let sem1Option3 = document.querySelector(".sem1Option3");
+
+
+    sem1Sub3.addEventListener('click',()=>{
+        sem1Option3.classList.toggle("show2");
+        toggleDiv("mid2")
+        footer.style.marginTop = '450px';
+    });
+
+
+    //to toggle download options and hide sub options 
+    let sem1Sub4 = document.querySelector("#sem1Sub4");
+    let sem1Option4 = document.querySelector(".sem1Option4");
+
+
+    sem1Sub4.addEventListener('click',()=>{
+        sem1Option4.classList.toggle("show2");
+        toggleDiv("mid2")
+        footer.style.marginTop = '450px';
+    });
+</script>
+
+
+</html>
